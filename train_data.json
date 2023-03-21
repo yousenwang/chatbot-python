@@ -1,0 +1,23 @@
+{
+    "intents": [
+        {
+            "tag": "work station",
+            "patterns": [
+                "How to jump to the specified work station?"
+            ],
+            "responses": [
+                "You need to log in the administrator account, enter the service center background -> Schedule Control -> Schedule Maintenance, enter the `Warranty Item` page,select the corresponding product serial number, pull down the `Maintenance operation`,click `Schedule Maintenance`, and select `Skip to designated site` to skip."
+            ]
+        },
+        {
+            "tag": "discrepancy",
+            "patterns": [
+                "How to deal with the discrepancy between the received repair products and the warranty application?"
+            ],
+            "responses": [
+                "Background of Service Center -> Receiving and Sending of goods -> Receiving and sending management. When receiving goods in the `Goods to be received` page, if the goods are not true, you can select the product and click `Delete`. The product information will be returned to the customer for confirmation, and the customer can submit the application again."
+            ]
+        }
+
+    ]
+}
