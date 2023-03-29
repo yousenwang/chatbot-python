@@ -17,7 +17,36 @@
             "responses": [
                 "Background of Service Center -> Receiving and Sending of goods -> Receiving and sending management. When receiving goods in the `Goods to be received` page, if the goods are not true, you can select the product and click `Delete`. The product information will be returned to the customer for confirmation, and the customer can submit the application again."
             ]
+        },
+        {
+            "tag": "label content",
+            "patterns": [
+                "How to modify the content of the label printed in the station?"
+            ],
+            "responses": [
+                "The service center can contact the manufacturer to modify the label printing at the factory station. The maintenance service background of the factory -> Engineering Support -> the printing at the factory station. The label content can be modified by selecting the corresponding printing template."
+            ]
+        },
+        {
+            "tag": "upgrade SN",
+            "patterns": [
+                "How to upgrade Product SN after replacing spare parts?"
+            ],
+            "responses": [
+                "Click `Parts Replacement` to enter the spare parts replacement page. After replacing PCBA, select `Upgrade SN` at the top of the page and select `Yes` to jump to the `Update and upgrade` page, enter/input the upgraded product serial number and material number, and complete the upgrade."
+            ]
+        },
+        {
+            "tag": "multiple failure",
+            "patterns": [
+                "How to work with multiple product failures?",
+                "What should I do if the fault that I initially identified is incorrect?",
+                "How to view multiple job processes in a product job?",
+                "Meet a variety of bad how to deal with?"
+            ],
+            "responses": [
+                "During the operation of service center, the [Work record] office can select the corresponding fault code several times according to the actual situation. After selecting different fault codes, the system will bring out different operation guidance, and operators can operate according to the operation guidance process."
+            ]
         }
-
     ]
 }

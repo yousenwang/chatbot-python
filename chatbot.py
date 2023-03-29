@@ -27,6 +27,7 @@ def clean_up_sentence(sentence):
 
 def bag_of_words(sentence):
     sentence_words = clean_up_sentence(sentence)
+    print(sentence_words)
     bag = [0] * len(words)
     for w in sentence_words:
         for i, word in enumerate(words):
@@ -36,7 +37,9 @@ def bag_of_words(sentence):
 
 def predict_class(sentence):
     bow = bag_of_words(sentence)
+    print(bow)
     res = model.predict(np.array([bow]))[0]
+    print(res)
     ERROR_THRESHOLD = 0.25
     results = [
         [i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD
@@ -62,7 +65,9 @@ def get_response(intents_list, intents_json):
             break
     return result
 
-message = input("enter: ")
-ints = predict_class(message)
-res = get_response(ints, intents)
-print(res)
+
+while True:
+    message = input("enter: ")
+    ints = predict_class(message)
+    res = get_response(ints, intents)
+    print(res)

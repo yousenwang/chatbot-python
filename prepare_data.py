@@ -16,7 +16,7 @@ intents = json.loads(
 
 
 
-print(intents)
+# print(intents)
 
 words = []
 classes = []
