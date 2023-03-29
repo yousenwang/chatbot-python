@@ -1,5 +1,19 @@
 # chatbot-python
 
+# Outline
+1. 建立聊天機器人
+   1. 準備數據與字庫
+   2. 準備模型
+2. 使用聊天機器人
+
+# Summary
+- Input
+- Tokenizer
+- Lemmatizer
+- Numericalization
+- Model Training
+- Prediction (Answer)
+
 # 1. 建立聊天機器人
 
 - 準備 n 個input example(s) (A 欄位) 綁定一個intent
