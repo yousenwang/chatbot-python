@@ -45,7 +45,7 @@
 - Here the `WordNetLemmatizer` is used.
   - nltk.download() is required.
 
-Lemmatization (外行話) is similar to stemming.
+Lemmatization (詞條還原) is similar to stemming (詞條提取).
 
 For example,
 `works`, `worked`, and `works` will be considered the same as word as `work`.
